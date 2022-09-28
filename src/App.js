@@ -14,7 +14,7 @@ const App = () => {
   const [navMobile, setNavMobile] = useState(true)
 
   return <div
-    className='relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-bitRed before:-top-[190px] before:left-[1700px] before:hidden before:lg:flex before:bg-no-repeat before:absolute '>
+    className='relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-bitRed before:-top-[200px] before:left-[170px] before:hidden before:lg:flex before:bg-no-repeat before:absolute '>
     <Header setNavMobile={setNavMobile} />
     <Banner />
     {/* Mobile Nav */}

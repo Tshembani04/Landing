@@ -14,7 +14,7 @@ const Banner = () => {
           {/* text */}
           <div>
             <h1 className='text-3xl font-bold mb-8 lg:text-5xl text-text lg:leading-snug' >Let's Explore <br /> Three Dimensional Visually.</h1>
-            <p className='font-secondary mb-12 max-w-[440px] mx-auto text-rose-600 lg:mx-0' >Innovation and Consulting Hub - Delivering Learning, Digital Production, Safety and Management Consulting Solutions
+            <p className='font-secondary mb-12 max-w-[640px] mx-auto text-rose-600 lg:mx-0' >Innovation and Consulting Hub - Delivering Learning, Digital Production, Safety and Management Consulting Solutions
 
             </p>
             {/* button */}

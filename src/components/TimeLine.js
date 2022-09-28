@@ -25,7 +25,7 @@ const TimeLine = () => {
             <div class="container mx-auto w-full h-full">
               <div class="relative wrap overflow-hidden p-10 h-full">
               <div class="md:border-2-2 md:border-white md:absolute h-full  md:border"></div>
-                <div class="md:border-2-2 md:border-white md:absolute h-full  md:border"></div>
+                <div class="lg:border-2-2 lg:border-white lg:absolute h-full lg:border"></div>
                 <div class="mb-2 flex justify-between flex-row-reverse items-center w-full left-timeline">
                   <div class="order-1 w-5/12"></div>
                   <div class="order-1 w-5/12 px-1 py-1 text-right">
@@ -205,12 +205,12 @@ const TimeLine = () => {
                 </div>
                 
               </div>
-              <div className="mt-24">
+              {/* <div className="mt-24">
                 <img
                   class="mx-auto -mt-56 md:-mt-36 "
                   src="https://user-images.githubusercontent.com/54521023/116968861-ef21a000-acd2-11eb-95ac-a34b5b490265.png"
                 />
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
