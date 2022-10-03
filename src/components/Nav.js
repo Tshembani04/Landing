@@ -9,22 +9,25 @@ function classNames(...classes) {
 }
 
 const Nav = () => {
+
+  
+
   return (
-    <div className="">
-      <nav className="hidden lg:flex top-0 fixe border-white mt-16">
-        <div className="mr-20">
+    <div className=" ">
+      <nav className="hidden lg:flex top-0 ">
+        <div className="mr-20 navbar-container ">
           <a href="#">
             <img className="h-[50px] w-[50px] " src={Logo} alt="" />
           </a>
         </div>
-        <ul className="flex items-center space-x-12 mb-2 font-secondary lg:leading-snug">
+        <ul className="flex items-center space-x-8 mb-2 font-secondary lg:leading-snug">
           <li className="nav-link">
             <a href="">Home</a>
           </li>
           <li className="nav-link">
             <a href="">Content Production</a>
           </li>
-          <li className="nav-link border-none ">
+          <li className="nav-link">
             <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="inline-flex w-full justify-center rounded-md border border-gray-300 px-4 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none ">

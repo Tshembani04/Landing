@@ -1,7 +1,7 @@
 // import slider images
-import Avatar1 from '../src/assets/img/avt1.png';
+import Avatar1 from '../src/assets/img/avt1.jpg';
 import Avatar2 from '../src/assets/img/avt2.png';
-import Avatar3 from '../src/assets/img/avt3.png';
+import Avatar3 from '../src/assets/img/avt3.jpg';
 
 export const slider = [
   {

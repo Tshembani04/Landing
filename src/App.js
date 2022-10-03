@@ -5,8 +5,11 @@ import { useState } from 'react';
 import Banner from './components/Banner'
 import Experience from './components/Experience';
 import Header from './components/Header'
+import Headsets from './components/Headsets';
 import NavMobile from './components/NavMobile'
+import Testimonial from './components/Testimonial';
 import TimeLine from './components/TimeLine';
+import Video from './components/Video';
 
 
 const App = () => {
@@ -14,7 +17,7 @@ const App = () => {
   const [navMobile, setNavMobile] = useState(true)
 
   return <div
-    className='relative overflow-hidden before:w-[600px] before:h-[200px] before:bg-bitRed before:-top-[200px] before:left-[170px] before:hidden before:lg:flex before:bg-no-repeat before:absolute '>
+    className='relative overflow-hidden'>
     <Header setNavMobile={setNavMobile} />
     <Banner />
     {/* Mobile Nav */}
@@ -23,6 +26,9 @@ const App = () => {
     </div>
     <Experience/>
     <TimeLine/>
+    <Video/>
+    <Headsets/>
+    <Testimonial/>
   </div>
 };
 
